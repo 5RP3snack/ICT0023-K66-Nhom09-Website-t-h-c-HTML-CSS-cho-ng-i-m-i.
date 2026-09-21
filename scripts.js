@@ -55,7 +55,7 @@ var thanhVien = [
             "May mắn được tiếp xúc sớm với công nghệ và có một người thầy dạy Tin tận tâm dẫn dắt, " +
             "em đã được hướng tới con đường SP Tin. Em rất vui khi được học bộ môn \"Lập trình web\", " +
             "bản thân em cảm thấy được học, được viết code bài bản thực sự rất vui và thú vị.",
-        kyNang: ["Role: coder"],
+        kyNang: ["Role: Coder"],
         idHoSo: "son",
         facebook: "https://www.facebook.com/son.tranngoc.9"
     },
@@ -68,7 +68,7 @@ var thanhVien = [
             "Quê quán của em ở Thanh An - Điện Biên. Sở thích của em là chơi game, chơi thể thao và nghe nhạc. " +
             "Mục tiêu của em khi học môn \"Thiết kế web\" là bản thân mình sẽ học tốt môn này " +
             "để áp dụng được vào thực tế để giảng dạy cũng như sử dụng cho công việc cá nhân của bản thân sau này.",
-        kyNang: ["Role: tester"],
+        kyNang: ["Role: Tester"],
         idHoSo: "duyanh",
         facebook: "https://www.facebook.com/tong.duyanh.13012007"
     },
