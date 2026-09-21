@@ -55,7 +55,7 @@ var thanhVien = [
             "May mắn được tiếp xúc sớm với công nghệ và có một người thầy dạy Tin tận tâm dẫn dắt, " +
             "em đã được hướng tới con đường SP Tin. Em rất vui khi được học bộ môn \"Lập trình web\", " +
             "bản thân em cảm thấy được học, được viết code bài bản thực sự rất vui và thú vị.",
-        kyNang: ["HTML", "CSS", "Steam & Robotic"],
+        kyNang: ["Role: coder"],
         idHoSo: "son",
         facebook: "https://www.facebook.com/son.tranngoc.9"
     },
@@ -68,7 +68,7 @@ var thanhVien = [
             "Quê quán của em ở Thanh An - Điện Biên. Sở thích của em là chơi game, chơi thể thao và nghe nhạc. " +
             "Mục tiêu của em khi học môn \"Thiết kế web\" là bản thân mình sẽ học tốt môn này " +
             "để áp dụng được vào thực tế để giảng dạy cũng như sử dụng cho công việc cá nhân của bản thân sau này.",
-        kyNang: ["Web", "Sport", "Technology"],
+        kyNang: ["Role: tester"],
         idHoSo: "duyanh",
         facebook: "https://www.facebook.com/tong.duyanh.13012007"
     },
@@ -83,7 +83,7 @@ var thanhVien = [
             "Mục tiêu đến với môn học là nắm bắt được kiến thức cơ bản về môn học Thiết kế Web, " +
             "tìm hiểu sâu hơn về HTML, CSS để bản thân có thể tự thiết kế một website cho bản thân mình, " +
             "cũng như công việc dạy học sau này.",
-        kyNang: ["Design", "Music", "Technology"],
+        kyNang: ["Role: Design"]
         idHoSo: "vietthanh",
         facebook: "https://www.facebook.com/viet.thanh.322712"
     },
@@ -98,7 +98,7 @@ var thanhVien = [
             "Rất vui khi được học môn ‘Thiết kế web ‘của thầy rất mong " +
             "được sự hỗ trợ giúp đỡ của thầy trong học phần này.\n" +
             "Em cảm ơn thầy !",
-        kyNang: ["Sport", "Army", "Technology"],
+        kyNang: ["Role: Sport"],
         idHoSo: "khue",
         facebook: "https://web.facebook.com/share/1Hk7yNemvR/"
     }
