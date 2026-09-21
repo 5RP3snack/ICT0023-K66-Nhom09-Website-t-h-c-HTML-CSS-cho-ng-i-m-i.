@@ -83,7 +83,7 @@ var thanhVien = [
             "Mục tiêu đến với môn học là nắm bắt được kiến thức cơ bản về môn học Thiết kế Web, " +
             "tìm hiểu sâu hơn về HTML, CSS để bản thân có thể tự thiết kế một website cho bản thân mình, " +
             "cũng như công việc dạy học sau này.",
-        kyNang: ["Role: Design"]
+        kyNang: ["Role: Design"],
         idHoSo: "vietthanh",
         facebook: "https://www.facebook.com/viet.thanh.322712"
     },
