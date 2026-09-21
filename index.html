@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="vn">
+<html lang="vi">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Chúng toi là nhóm 9 viết html</title>
+        <title>Chúng tôi là nhóm 9 viết html</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -17,6 +17,7 @@
                 <label for="menu-toggle" class="menu-button">☰</label>
                 <ul class="nav-links">
                     <li><a href="#home">Trang chủ</a></li>
+                    <li><a href="#intro">Giới thiệu</a></li>
                     <li><a href="#about">Về nhóm</a></li>
                     <li><a href="#members">Thành viên</a></li>
                 </ul>
@@ -26,124 +27,30 @@
             <section class="hero" id="home">
                 <div class="hero-content">
                     <p class="hero-small">K66 ĐHSP Tin học</p>
-                    <h1>CHÚNG TÔI LÀ <span>NHÓM 9 TẬP CODE</span></h1>
+                    <h1>CHÚNG TÔI LÀ <span>NHÓM 9</span></h1>
                     <p class="hero-description">Chúng tôi là những thanh niên đam mê lập trình và thiết kế web. Showtime...</p>
+                    <p class="typing-line" aria-live="off">
+                        Chúng tôi <span class="typing-text" id="typing-text"></span><span class="typing-cursor" aria-hidden="true"></span>
+                    </p>
                     <a class="primary-button" href="#members">Khám phá thành viên</a>
                 </div>
             </section>
+
+            <section class="intro-section" id="intro">
+                <div class="intro-inner" id="intro-root">
+                    <noscript>Vui lòng bật JavaScript để xem phần giới thiệu nhóm.</noscript>
+                </div>
+            </section>
+
             <section class="members-section" id="members">
                 <div class="section-heading">
                     <p>OUR TEAM</p>
                     <h2>Thành viên nhóm 9</h2>
                     <span>Gặp gỡ những thành viên nhóm 9</span>
-                    <div class="member-grid">
-                        <article class="member-card">
-                            <div class="member-image">
-                                <img src="image/Sukien.jpg" alt="Trần Ngọc Sơn">
-                            </div>
-                            <div class="member-content">
-                                <h3>Trần Ngọc Sơn</h3>
-                                <p class="member-role">K66 ĐHSP Tin học</p>
-                                <p class="member-description">
-                                    Em xin chào thầy và các bạn, em tên là Trần Ngọc Sơn thành viên K66 ĐHSP Tin học. 
-                                    Bản thân em yêu thích công nghệ nói chung, và học về mã lập trình hay code nói riêng.
-                                    May mắn được tiếp xúc sớm với công nghệ và có một người thầy dạy Tin tận tâm dẫn dắt,
-                                    em đã được hướng tới con đường SP Tin. Em rất vui khi được học bộ môn "Lập trình web", 
-                                    bản thân em cảm thấy được học, được viết code bài bản thực sự rất vui và thú vị.
-                                </p>
-                                <div class="skills">
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                    <span>Steam & Robotic</span>
-                                </div>
-                                <div class="member-action">
-                                    <a href="#son" class="detail-button">Xem hồ sơ</a>
-                                    <a href="https://www.facebook.com/son.tranngoc.9" target="_blank" rel="noopener noreferrer" class="facebook-button">Facebook</a>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="member-card">
-                            <div class="member-image">
-                                <img src="image/Duyanh.jpg" alt="Tòng Duy Anh">
-                            </div>
-                            <div class="member-content">
-                                <h3>Tòng Duy Anh</h3>
-                                <p class="member-role">K66 ĐHSP Tin học</p>
-                                <p class="member-description">
-                                    Em tên là Tòng Duy Anh sinh viên của lớp k66 ĐHSP tin. 
-                                    Quê quán của em ở Thanh An - Điện Biên. Sở thích của 
-                                    em là chơi game, chơi thể thao và nghe nhạc. Mục tiêu 
-                                    của em khi học môn "Thiết kế web" là bản thân mình sẽ 
-                                    học tốt môn này để áp dụng được vào thực tế để giảng 
-                                    dạy cũng như sử dụng cho công việc cá nhân của bản 
-                                    thân sau này.
-                                </p>
-                                <div class="skills">
-                                    <span>Web</span>
-                                    <span>Sport</span>
-                                    <span>Technology</span>
-                                </div>
-                                <div class="member-actions">
-                                    <a href="#duyanh" class="detail-button">Xem hồ sơ</a>
-                                    <a href="https://www.facebook.com/tong.duyanh.13012007" target="_blank" rel="noopener noreferrer" class="facebook-button">Facebook</a>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="member-card">
-                            <div class="member-image">
-                                <img src="image/VT.jpg" alt="Lềm Việt Thành">
-                            </div>
-                            <div class="member-content">
-                                <h3>Lềm Việt Thành</h3>
-                                <p class="member-role">K66 ĐHSP Tin học</p>
-                                <p class="member-description">
-                                    Chào thầy và các bạn. 
-                                    Em là Việt Thành, một sinh viên K66 ngành Sư phạm Tin học, 
-                                    em luôn mong muốn kết hợp tư duy logic của lập trình với tâm 
-                                    lý học giáo dục để truyền đạt kiến thức tốt hơn. Mục tiêu 
-                                    đến với môn học là nắm bắt được kiến thức cơ bản về môn học 
-                                    Thiết kế Web, tìm hiểu sâu hơn về HTML, CSS để bản thân có 
-                                    thể tự thiết kế một website cho bản thân mình, cũng như công 
-                                    việc dạy học sau này.
-                                </p>
-                                <div class="skills">
-                                    <span>Design</span>
-                                    <span>Music</span>
-                                    <span>Technology</span>
-                                </div>
-                                <div class="member-actions">
-                                    <a href="#vietthanh" class="detail-button">Xem hồ sơ</a>
-                                    <a href="https://www.facebook.com/viet.thanh.322712" target="_blank" rel="noopener noreferrer" class="facebook-button">Facebook</a>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="member-card">
-                            <div class="member-image">
-                                <img src="image/Khue.jpg" alt="Hà Văn Khuê">
-                            </div>
-                            <div class="member-content">
-                                <h3>Hà Văn Khuê</h3>
-                                <p class="member-role">K66 ĐHSP Tin học</p>
-                                <p class="member-description">
-                                    Em là Hà Văn Khuê ,đến từ Tỉnh Phú Thọ , 
-                                    là tsinh viên lớp K66 Sư phạm Tin học, Trường Đại học Tây Bắc. 
-                                    Em có niềm đam mê với công nghệ cũng như ngành sư phạm. 
-                                    Rất vui khi được học môn ‘Thiết kế web ‘của thầy rất mong 
-                                    được sự hỗ trợ giúp đỡ của thầy trong học phần này.<br> 
-                                    Em cảm ơn thầy !
-                                </p>
-                                <div class="skills">
-                                    <span>Sport</span>
-                                    <span>Army</span>
-                                    <span>Technology</span>
-                                </div>
-                                <div class="member-actions">
-                                    <a href="#khue" class="detail-button">Xem hồ sơ</a>
-                                    <a href="https://web.facebook.com/share/1Hk7yNemvR/" target="_blank" rel="noopener noreferrer" class="facebook-button">Facebook</a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+                </div>
+                <div class="member-grid" id="member-grid">
+                    <noscript>Vui lòng bật JavaScript để xem danh sách thành viên.</noscript>
+                </div>
             </section>
             <section class="about-section" id="about">
                 <div class="about-container">
@@ -174,5 +81,7 @@
             <p>@ 2026 Nhóm 9 - K66 ĐHSP Tin</p>
             <p>Designed with HTML & CSS</p>
         </footer>
+
+        <script src="thunghiem.js"></script>
     </body>
 </html>
